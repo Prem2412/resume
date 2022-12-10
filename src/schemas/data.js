@@ -70,7 +70,6 @@ export const Data = {
         description: [
           "Working as Mobile App developer, React-native developer.",
           "Development and continuous improvement of PWA in React-native, React technologies.",
-          "CI/CD pipeline with Bitbucket, Jenkins and AWS as infrastructure.",
         ],
       },
       {

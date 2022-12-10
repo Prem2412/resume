@@ -1,8 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Particles from "react-tsparticles";
 import { ParticlesParams } from "../schemas/particles";
+import { loadFull } from "tsparticles";
 
 export const Options = () => {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+
   var { lsTheme, lsIcon, lsSnow } = "";
   try {
     lsTheme = localStorage.getItem("theme");
@@ -24,7 +37,15 @@ export const Options = () => {
   }, [theme, snow, icon]);
 
   const SnowEffect = () =>
-    snow && theme === "dark" && <Particles params={ParticlesParams} />;
+    snow &&
+    theme === "dark" && (
+      <Particles
+        id="tsparticles"
+        options={ParticlesParams.options}
+        init={particlesInit}
+        loaded={particlesLoaded}
+      />
+    );
 
   const _enableSnow = () => setSnow(!snow);
   const _toggleTheme = () => {
@@ -36,7 +57,7 @@ export const Options = () => {
     <div className="home__options" id="resume__options">
       {theme === "dark" && (
         <i
-          className="bx bx-cloud-snow enable-snow"
+          className="bx bx-cog enable-snow"
           title="Activate Snow"
           id="snow-button"
           onClick={_enableSnow}
