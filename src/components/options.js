@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import { ParticlesParams } from "../schemas/particles";
 
 export const Options = () => {
