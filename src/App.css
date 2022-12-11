@@ -42,6 +42,7 @@
 ::after {
   box-sizing: border-box;
 }
+::-webkit-scrollbar { display: none; }
 
 html {
   scroll-behavior: smooth;
@@ -337,9 +338,10 @@ button.generate__btn {
 }
 .link_container{
   flex-direction: row;
-  background-color: #3b4252;
   display: flex;
-  overflow: hidden;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .project__link:hover {
@@ -371,9 +373,10 @@ button.generate__btn {
 .experience__line {
   display: block;
   width: 2px;
-  height: 110%;
+  height: 100%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
+  overflow: hidden;
 }
 
 .education__data,
@@ -388,7 +391,7 @@ button.generate__btn {
 
 .education__studies,
 .experience__company,
-.experience__proyect {
+.experience__project {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }

@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "PROFILE",
     description:
-      "Programmer Analyst, trained to develop computer applications in various technologies and multiple programming languages, applying agile development methodologies, including identification of needs and system designs based on development models.",
+      "Extensive experience in Web and Mobile apps development. Experienced React Native developer with a passion for mobile app development. Recognized for strong problem-solving skills and an ability to quickly learn new technologies. Eager to join a team of talented developers and help build world-class mobile apps.",
   },
   skills: {
     technicalLabel: "TECHNOLOGIES",
@@ -18,10 +18,15 @@ export const Data = {
     technicalSkills: [
       "React-native",
       "React",
+      "Expo",
+      "JavaScript",
+      "TypeScript",
+      "Redux",
       "Express",
       "Nodejs",
       "AXIOS",
-      "MONGODB",
+      "HTML5",
+      "CSS3",
       "FIGMA",
       "GIT",
       "GRAPHQL",

@@ -1,5 +1,4 @@
 import React from "react";
-// import { GenerateCV } from "./generateCV";
 import { Options } from "./options";
 
 export const Profile = ({
@@ -22,9 +21,6 @@ export const Profile = ({
           </h1>
           <h3 className="home__profession">{ocupation}</h3>
         </div>
-        {/* {!isMobileView && (
-          <GenerateCV {...{ location, email, telephone, social }} />
-        )} */}
         <div className="home__address bd-grid">
           <span className="home__information">
             <i className="bx bx-map home__icon" /> {location}

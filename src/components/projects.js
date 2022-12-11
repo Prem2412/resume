@@ -31,9 +31,9 @@ const Project = ({
       </div>
       <div className="experience__data bd-grid">
         <h3 className="experience__title">{name}</h3>
-        <span className="experience__proyect">{period}</span>
-        <span className="experience__proyect">FrameWork: {framework}</span>
-        <span className="experience__proyect"> Role: {role} </span>
+        <span className="experience__project">{period}</span>
+        <span className="experience__project">FrameWork: {framework}</span>
+        <span className="experience__project"> Role: {role} </span>
         {description.map((desc, i) => (
           <Description key={i} desc={desc} />
         ))}
