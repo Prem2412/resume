@@ -5,7 +5,7 @@ export const Data = {
     location: "Ahmedabad, Gujarat",
     email: "shahprem2412@gmail.com",
     telephone: "+91 9824594969",
-    image: "images/1670435158239.jpg",
+    image: "images/image.jpg",
   },
   aboutMe: {
     label: "PROFILE",
