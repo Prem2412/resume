@@ -32,14 +32,16 @@ const Project = ({
       <div className="experience__data bd-grid">
         <h3 className="experience__title">{name}</h3>
         <span className="experience__proyect">{period}</span>
-        <span>FrameWork: {framework}</span>
-        <span> Role: {role} </span>
+        <span className="experience__proyect">FrameWork: {framework}</span>
+        <span className="experience__proyect"> Role: {role} </span>
         {description.map((desc, i) => (
           <Description key={i} desc={desc} />
         ))}
+        {/* <div className="link_container"> */}
         {link.map((link, i) => (
           <Link link={link} key={i} />
         ))}
+        {/* </div> */}
       </div>
     </div>
   );
@@ -47,15 +49,16 @@ const Project = ({
 
 const Link = ({ link }) => {
   return (
-    <>
+    <div className="link_container">
       {link.android && (
         <a
           href={link.android}
           target="_blank"
           rel="noreferrer"
-          className="social__link"
+          className="project__link"
         >
-          <i className={`bx bxl-android social__icon`}></i> {link.android}
+          <i className={`bx bxl-android social__icon`}></i>
+          {link.android}
         </a>
       )}
       {link.iOS && (
@@ -63,11 +66,12 @@ const Link = ({ link }) => {
           href={link.iOS}
           target="_blank"
           rel="noreferrer"
-          className="social__link"
+          className="project__link"
         >
-          <i className={`bx bxl-apple social__icon`}></i> {link.iOS}
+          <i className={`bx bxl-apple social__icon`}></i>
+          {link.iOS}
         </a>
       )}
-    </>
+    </div>
   );
 };

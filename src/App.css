@@ -329,6 +329,23 @@ button.generate__btn {
   text-align: center;
 }
 
+.project__link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+.link_container{
+  flex-direction: row;
+  background-color: #3b4252;
+  display: flex;
+  overflow: hidden;
+}
+
+.project__link:hover {
+  color: var(--title-color);
+}
+
 .education__content,
 .experience__content {
   display: flex;
