@@ -24,7 +24,6 @@ const Academics = ({ career, date, institution, percent }) => {
         <h3 className="education__title">{career}</h3>
         <span className="education__year">{date}</span>
         <span className="education__studies">{institution}</span>
-        <span className="education__year">{percent}</span>
       </div>
     </div>
   );

@@ -37,41 +37,7 @@ const Project = ({
         {description.map((desc, i) => (
           <Description key={i} desc={desc} />
         ))}
-        {/* <div className="link_container"> */}
-        {link.map((link, i) => (
-          <Link link={link} key={i} />
-        ))}
-        {/* </div> */}
       </div>
-    </div>
-  );
-};
-
-const Link = ({ link }) => {
-  return (
-    <div className="link_container">
-      {link.android && (
-        <a
-          href={link.android}
-          target="_blank"
-          rel="noreferrer"
-          className="project__link"
-        >
-          <i className={`bx bxl-android social__icon`}></i>
-          {link.android}
-        </a>
-      )}
-      {link.iOS && (
-        <a
-          href={link.iOS}
-          target="_blank"
-          rel="noreferrer"
-          className="project__link"
-        >
-          <i className={`bx bxl-apple social__icon`}></i>
-          {link.iOS}
-        </a>
-      )}
     </div>
   );
 };

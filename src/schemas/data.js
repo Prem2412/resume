@@ -111,8 +111,8 @@ export const Data = {
     ],
     projects: [
       {
-        name: "Stack App",
-        company: "Banco de Chile",
+        name: "Trading App",
+        company: "Mindinventory",
         role: "Design and development",
         framework: "React-native, Redux-thunk, Rest-API, Plaid-Api.",
         description: [
@@ -127,8 +127,8 @@ export const Data = {
         ],
       },
       {
-        name: "Armbet App",
-        company: "Banco de Chile",
+        name: "Sports and Social App",
+        company: "Mindinventory",
         role: "Design and development",
         framework:
           " React-native, React-navigation, React-native Maps, Graph QL, Axios, Firebase push notifications.",
@@ -144,8 +144,8 @@ export const Data = {
         ],
       },
       {
-        name: "LM Exam App",
-        company: "Banco de Chile",
+        name: "Educational App",
+        company: "Shine InfoSoft",
         role: "Design and development",
         framework:
           " React-Native JS, React JS, Redux, Electron, SQLite, Azure Services, Quill JS.",
@@ -162,8 +162,8 @@ export const Data = {
         ],
       },
       {
-        name: "Autopilot Mobile App",
-        company: "Banco de Chile",
+        name: "Marketing Automation App",
+        company: "Shine InfoSoft",
         role: "Design, Functionality and development",
         framework:
           "React-Native JS, Redux JS, Redux, React-Bottom-tab-navigation",
@@ -181,8 +181,8 @@ export const Data = {
         ],
       },
       {
-        name: "Breakout Stocks - Chart Analysis App",
-        company: "Banco de Chile",
+        name: "Stock Exchanges and News Analysis App",
+        company: "Shine InfoSoft",
         role: "Design and development",
         framework: "React-Native JS, Node JS, Android Studio",
         description: [
