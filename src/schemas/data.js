@@ -69,20 +69,13 @@ export const Data = {
     works: [
       {
         title: "Software Engineer",
-        period: "July 2023 - Present",
+        period: "April 2022 - Present",
         company: "MindInventory",
         description: [
           "Working as Mobile App developer, React-native developer.",
-          "PR review",
-        ],
-      },
-      {
-        title: "Associate Software Engineer",
-        period: "April 2022 - June 2023",
-        company: "MindInventory",
-        description: [
-          "Working as Mobile App developer, React-native developer.",
-          "Development and continuous improvement of PWA in React-native, React technologies.",
+          "Developed mobile applications tailored to client requirements utilizing native technologies.",
+          "Identify and encourage areas for growth and improvement within the team.",
+          "Design, develop, and test applications in accordance with established standards"
         ],
       },
       {
@@ -132,6 +125,39 @@ export const Data = {
               "https://play.google.com/store/apps/details?id=com.app.secretworld",
           },
           { iOS: "https://apps.apple.com/us/app/secret-world/id6447253280" },
+        ],
+      },
+      {
+        name: "Arcade App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "Expo, React native, React navigation, Zustand, React native MMKV storage, React native IAP",
+        description: [
+          "Arcade Live is a game mobile and web application(IOS/Android/WebApp) played online on real Arcade Game machines controlled remotely through video streaming via mobile and web apps.",
+          "Users can buy credits, and choose an Arcade Game machine to start playing. Each machine required different amount of credits to play the game. User can choose from between two option to play games for as a reward: Play for Tickets & Play for Games.",
+        ],
+        link: [
+          // {
+          //   android:
+          //     "https://play.google.com/store/apps/details?id=com.app.secretworld",
+          // },
+          // { iOS: "https://apps.apple.com/us/app/secret-world/id6447253280" },
+        ],
+      },
+      {
+        name: "Tools App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "Return is an app-based platform facilitating trades of pant-bags. The danish pant-system has been around for many years and serves as a method to ensure recyclable bottles and cans gets recycled in a proper way.",
+        description: [
+          "Expo, React-navigation, React native Map, Expo push notifications, Context Api, Styled components",
+        ],
+        link: [
+          {
+            android:
+              "https://play.google.com/store/apps/details?id=com.returndk.returnapp",
+          },
+          { iOS: "https://apps.apple.com/dk/app/return-return-earn/id1620342962" },
         ],
       },
       {
