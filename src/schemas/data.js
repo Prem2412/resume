@@ -27,7 +27,6 @@ export const Data = {
       "AXIOS",
       "HTML5",
       "CSS3",
-      "FIGMA",
       "GIT",
       "GRAPHQL",
       "React-native-reanimated",
@@ -69,8 +68,17 @@ export const Data = {
   experience: {
     works: [
       {
+        title: "Software Engineer",
+        period: "July 2023 - Present",
+        company: "MindInventory",
+        description: [
+          "Working as Mobile App developer, React-native developer.",
+          "PR review",
+        ],
+      },
+      {
         title: "Associate Software Engineer",
-        period: "Apr. 2022 - Present",
+        period: "April 2022 - June 2023",
         company: "MindInventory",
         description: [
           "Working as Mobile App developer, React-native developer.",
@@ -110,6 +118,22 @@ export const Data = {
       },
     ],
     projects: [
+      {
+        name: "Tour and Travel App",
+        company: "Mindinventory",
+        role: "Design and development",
+        framework: "React-native, React-navigation, React-native Mapbox, Firebase push notifications, React native mmkv storage, Redux persist, Stripe, React native TTS",
+        description: [
+          "Secret world is a magical place for travelers and dreamers. Worlds largest Travel guide, Never stop Discovering Explore Stories.",
+        ],
+        link: [
+          {
+            android:
+              "https://play.google.com/store/apps/details?id=com.app.secretworld",
+          },
+          { iOS: "https://apps.apple.com/us/app/secret-world/id6447253280" },
+        ],
+      },
       {
         name: "Trading App",
         company: "Mindinventory",
